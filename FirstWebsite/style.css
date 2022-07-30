@@ -11,10 +11,10 @@
     display: flex;
     justify-content: space-between;
     padding: 1rem;
-    background-color: #1F2937;
-
     padding: 1rem 12rem;
     align-items: center;
+    position: relative;
+    z-index: 1;
 }
 
 .hlinks {
@@ -41,26 +41,28 @@ a {
 }
 /*  HEADER-BOX----------------------------- */
 
+#header {
+    background-image: url(../images-videos/space-7273891.jpg);
+    background-size: cover;
+}
+
+
 .header-box {
     display: flex;
-    padding: 4.5rem 12rem;
-    background-color: #1F2937;
- 
-
+    padding: 6.5rem 12rem 6.5rem;
+   
+    
 }
 
 .header-left {
-    display: flex;
+    display: flex;   
     flex-direction: column;
     justify-content: center;
+    gap: 1rem;
+    flex: 1;
     align-items: flex-start;
     text-align: left;
 
-    padding: 0 3rem 0 0;    
-
-
-    
-  
 }
 
 .title {
@@ -74,7 +76,7 @@ a {
     display: flex;
     font-size: 1.125rem;
     color: #E5E7EB;
-    
+    width: 50%;    
     justify-content: center;
     align-items: center;
 }
@@ -82,19 +84,24 @@ a {
 
 .header-right{
     display: flex;
+    width: 50%;
     justify-content: center;
     align-items: center;
     margin: 2rem 0;
-    
+    position: relative;
 }
 
 
 .header-img {
-    height: 226.78px;
-    width: 550px;
-
+    width: 1100px;
+    height: auto;
+    position: absolute;
+    margin-top: 400px;
+   
+    
     
    
+    
 }
 
 .divbtn{
@@ -108,3 +115,60 @@ a {
     border-radius: 8px;
     border: none;
 }
+
+
+
+
+/* MIDDLEPART */
+
+.blankbg{
+    display: flex;
+    flex-direction: column;
+    padding: 0 12rem 10rem;
+    position: relative;
+    background-color: #fff;
+    z-index: 1;
+    text-align: center;    
+}
+
+.blankbg h2 {
+    padding: 4rem 0;
+    font-size: 2.25rem;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+
+.mid-container {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    flex-wrap: wrap;
+   
+   
+}
+
+.mid-ctn-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+
+}
+
+
+.mid-ctn-box > img{
+ 
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+    border: 3px solid #3882f6;
+}
+
+.mid-ctn-box > p{
+    width: 100%;
+    height: 50px;
+    padding-top: 1rem;
+}
+    
