@@ -171,4 +171,40 @@ a {
     height: 50px;
     padding-top: 1rem;
 }
+
+
+/* QUOTE */
+
+#quote {
+    padding: 15.5rem 12rem;
+    background-color: #E5E7EB;
+}
+
+.quote-ctn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    margin: auto;
     
+    
+    
+}
+
+
+ 
+.qtext {
+    display: flex;
+    font-size: 2.25rem;
+    font-style: italic;
+    font-weight: lighter !important;
+    
+}
+
+
+.author {
+    font-weight: 900;
+    font-size: 1.5rem;
+    align-self: flex-end;
+    padding-right: 3.5rem;
+}
